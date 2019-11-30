@@ -1,5 +1,5 @@
 {
-    "name": "cydrickn/number",
+    "name": "php-number/php-number",
     "description": "An arbitrary precision for floating point Numbers for PHP",
     "keywords": ["arbitary","number","format","decimal"],
     "license": "MIT",
