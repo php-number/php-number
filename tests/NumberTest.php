@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Tests\Cydrickn\Number;
+namespace Tests\Number;
 
-use Cydrickn\Number\Number;
+use Number\Number;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -21,12 +21,6 @@ use PHPUnit\Framework\TestCase;
  */
 final class NumberTest extends TestCase
 {
-    protected function setUp()
-    {
-        parent::setUp();
-
-        Number::setConfig(['precision' => 5]);
-    }
 
     public function testFormatFailed()
     {
